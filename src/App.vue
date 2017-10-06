@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col-xs-12">
       <app-quote>
-        <h2>Hello</h2>
+        <h2>{{title}}</h2>
         <h3>subtitle</h3>
       </app-quote>
     </div>
@@ -17,7 +17,7 @@ import appQuote from './components/quote.vue'
 export default {
   data () {
     return {
-      msg: ''
+      title: 'Hello'
     }
   },
   components: {
