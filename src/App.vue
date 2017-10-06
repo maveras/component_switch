@@ -1,8 +1,8 @@
 <template>
 <div class="container">
   <div class="row">
-    <div class="col-xs-12">sdaas
-      <app-quote>
+    <div class="col-xs-12">
+      <app-quote msg="hellow">
       </app-quote>
     </div>
   </div>
