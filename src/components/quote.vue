@@ -2,6 +2,7 @@
   <div>
     <slot name="title"></slot>
     <slot name="subtitle"></slot>
+    <slot name="defaultq"> I am a default quote, i will appear when i dont exist in the parent</slot>
   </div>
 
 </template>
