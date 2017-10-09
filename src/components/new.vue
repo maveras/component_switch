@@ -1,11 +1,18 @@
 <template>
   <div>
     <p> the new page</p>
+    <p>counter: {{ counter }}</p>
+    <button @click="counter++">counter</button>
   </div>
 
 </template>
 <script>
   export default {
+    data () {
+      return {
+        counter: 0
+      }
+    },
     props:['msg']
   }
 </script>

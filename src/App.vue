@@ -9,7 +9,9 @@
         <h2 slot="title">{{title}}</h2>
         <h3 slot="subtitle">subtitle</h3>
       </app-quote>
-      <component :is='selectedComponent'></component>
+      <keep-alive>
+        <component :is='selectedComponent'></component>
+      </keep-alive>
     </div>
   </div>
 </div>
