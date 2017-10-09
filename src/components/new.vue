@@ -13,7 +13,15 @@
         counter: 0
       }
     },
-    props:['msg']
+    deactivated () {
+      console.log('desacitvated!!!')
+    },
+    activated () {
+      console.log('activated!!!!')
+    },
+    destroyed () {
+      console.log('destroyed')
+    }
   }
 </script>
 <style scoped>
